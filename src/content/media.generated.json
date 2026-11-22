@@ -1,0 +1,582 @@
+{
+  "portrait-camera": {
+    "src": "/media/portraits/portrait-camera",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "portrait-gallery": {
+    "src": "/media/portraits/portrait-gallery",
+    "width": 819,
+    "height": 1530,
+    "widths": [
+      480,
+      800,
+      819
+    ],
+    "color": "rgb(152,152,136)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "portrait-studio": {
+    "src": "/media/portraits/portrait-studio",
+    "width": 1210,
+    "height": 1613,
+    "widths": [
+      480,
+      800,
+      1200,
+      1210
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "gharq-poster": {
+    "src": "/media/documentary/gharq/gharq-poster",
+    "width": 633,
+    "height": 896,
+    "widths": [
+      480,
+      633
+    ],
+    "color": "rgb(168,184,200)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-foam": {
+    "src": "/media/documentary/gharq/gharq-foam",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(136,136,152)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-diver": {
+    "src": "/media/documentary/gharq/gharq-diver",
+    "width": 768,
+    "height": 381,
+    "widths": [
+      480,
+      768
+    ],
+    "color": "rgb(56,40,40)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-shelter": {
+    "src": "/media/documentary/gharq/gharq-shelter",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(136,136,136)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-portrait": {
+    "src": "/media/documentary/gharq/gharq-portrait",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(200,200,184)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-boat": {
+    "src": "/media/documentary/gharq/gharq-boat",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(24,24,24)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-shrine": {
+    "src": "/media/documentary/gharq/gharq-shrine",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(24,24,24)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-gathering": {
+    "src": "/media/documentary/gharq/gharq-gathering",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(40,40,40)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "gharq-fire": {
+    "src": "/media/documentary/gharq/gharq-fire",
+    "width": 683,
+    "height": 338,
+    "widths": [
+      480,
+      683
+    ],
+    "color": "rgb(24,24,24)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "crossroads-title": {
+    "src": "/media/documentary/crossroads/crossroads-title",
+    "width": 1152,
+    "height": 648,
+    "widths": [
+      480,
+      800,
+      1152
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "crossroads-stretch": {
+    "src": "/media/documentary/crossroads/crossroads-stretch",
+    "width": 958,
+    "height": 540,
+    "widths": [
+      480,
+      800,
+      958
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "crossroads-interview": {
+    "src": "/media/documentary/crossroads/crossroads-interview",
+    "width": 956,
+    "height": 540,
+    "widths": [
+      480,
+      800,
+      956
+    ],
+    "color": "rgb(136,56,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "crossroads-field": {
+    "src": "/media/documentary/crossroads/crossroads-field",
+    "width": 961,
+    "height": 540,
+    "widths": [
+      480,
+      800,
+      961
+    ],
+    "color": "rgb(168,152,104)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "crossroads-courtside": {
+    "src": "/media/documentary/crossroads/crossroads-courtside",
+    "width": 960,
+    "height": 540,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "rgb(40,40,40)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "fitoor-turban": {
+    "src": "/media/audiovisual/fitoor/fitoor-turban",
+    "width": 1532,
+    "height": 864,
+    "widths": [
+      480,
+      800,
+      1200,
+      1532
+    ],
+    "color": "rgb(24,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "fitoor-forest": {
+    "src": "/media/audiovisual/fitoor/fitoor-forest",
+    "width": 1346,
+    "height": 756,
+    "widths": [
+      480,
+      800,
+      1200,
+      1346
+    ],
+    "color": "rgb(56,40,24)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "fitoor-red": {
+    "src": "/media/audiovisual/fitoor/fitoor-red",
+    "width": 1198,
+    "height": 756,
+    "widths": [
+      480,
+      800,
+      1198
+    ],
+    "color": "rgb(56,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "fitoor-cave": {
+    "src": "/media/audiovisual/fitoor/fitoor-cave",
+    "width": 1150,
+    "height": 648,
+    "widths": [
+      480,
+      800,
+      1150
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "saayah-still": {
+    "src": "/media/audiovisual/saayah/saayah-still",
+    "width": 1280,
+    "height": 680,
+    "widths": [
+      480,
+      800,
+      1200,
+      1280
+    ],
+    "color": "rgb(24,24,24)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "saayah-bts-1": {
+    "src": "/media/audiovisual/saayah/saayah-bts-1",
+    "width": 648,
+    "height": 1152,
+    "widths": [
+      480,
+      648
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "saayah-bts-2": {
+    "src": "/media/audiovisual/saayah/saayah-bts-2",
+    "width": 648,
+    "height": 1152,
+    "widths": [
+      480,
+      648
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "otl-park": {
+    "src": "/media/music-video/on-the-loose/otl-park",
+    "width": 1155,
+    "height": 648,
+    "widths": [
+      480,
+      800,
+      1155
+    ],
+    "color": "rgb(40,56,24)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "otl-highfive": {
+    "src": "/media/music-video/on-the-loose/otl-highfive",
+    "width": 1347,
+    "height": 756,
+    "widths": [
+      480,
+      800,
+      1200,
+      1347
+    ],
+    "color": "rgb(200,200,200)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "otl-closeup": {
+    "src": "/media/music-video/on-the-loose/otl-closeup",
+    "width": 1343,
+    "height": 756,
+    "widths": [
+      480,
+      800,
+      1200,
+      1343
+    ],
+    "color": "rgb(248,248,248)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "otl-smile": {
+    "src": "/media/music-video/on-the-loose/otl-smile",
+    "width": 959,
+    "height": 540,
+    "widths": [
+      480,
+      800,
+      959
+    ],
+    "color": "rgb(24,24,24)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "photo-hands": {
+    "src": "/media/photography/selected/photo-hands",
+    "width": 1205,
+    "height": 1805,
+    "widths": [
+      480,
+      800,
+      1200,
+      1205
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "photo-jewellery": {
+    "src": "/media/photography/selected/photo-jewellery",
+    "width": 1805,
+    "height": 1205,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1805
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "photo-couple": {
+    "src": "/media/photography/selected/photo-couple",
+    "width": 525,
+    "height": 676,
+    "widths": [
+      480,
+      525
+    ],
+    "color": "rgb(8,8,8)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "photo-tomb": {
+    "src": "/media/photography/selected/photo-tomb",
+    "width": 764,
+    "height": 711,
+    "widths": [
+      480,
+      764
+    ],
+    "color": "rgb(72,136,184)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "isb-grid-1": {
+    "src": "/media/social-media/isb/isb-grid-1",
+    "width": 573,
+    "height": 938,
+    "widths": [
+      480,
+      573
+    ],
+    "color": "rgb(248,248,248)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "isb-grid-2": {
+    "src": "/media/social-media/isb/isb-grid-2",
+    "width": 573,
+    "height": 934,
+    "widths": [
+      480,
+      573
+    ],
+    "color": "rgb(248,248,248)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "nn-reel-scissors": {
+    "src": "/media/social-media/nerdnerdy/nn-reel-scissors",
+    "width": 1123,
+    "height": 2276,
+    "widths": [
+      480,
+      800,
+      1123
+    ],
+    "color": "rgb(232,24,104)",
+    "source": "pdf-extract",
+    "temp": false
+  },
+  "nn-reel-puzzle": {
+    "src": "/media/social-media/nerdnerdy/nn-reel-puzzle",
+    "width": 356,
+    "height": 720,
+    "widths": [
+      356
+    ],
+    "color": "rgb(216,56,88)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "nn-habits": {
+    "src": "/media/social-media/nerdnerdy/nn-habits",
+    "width": 540,
+    "height": 541,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(248,232,216)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "nn-selfstudy": {
+    "src": "/media/social-media/nerdnerdy/nn-selfstudy",
+    "width": 540,
+    "height": 540,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(248,232,184)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "nn-vocabulary": {
+    "src": "/media/social-media/nerdnerdy/nn-vocabulary",
+    "width": 540,
+    "height": 540,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(232,152,120)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "nn-motor": {
+    "src": "/media/social-media/nerdnerdy/nn-motor",
+    "width": 540,
+    "height": 540,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(248,248,232)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "xv-hockey": {
+    "src": "/media/social-media/xtreme-vision/xv-hockey",
+    "width": 537,
+    "height": 537,
+    "widths": [
+      480,
+      537
+    ],
+    "color": "rgb(24,40,104)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "xv-isl": {
+    "src": "/media/social-media/xtreme-vision/xv-isl",
+    "width": 536,
+    "height": 536,
+    "widths": [
+      480,
+      536
+    ],
+    "color": "rgb(56,72,120)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "xv-archery": {
+    "src": "/media/social-media/xtreme-vision/xv-archery",
+    "width": 537,
+    "height": 537,
+    "widths": [
+      480,
+      537
+    ],
+    "color": "rgb(24,40,104)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "xv-cricket": {
+    "src": "/media/social-media/xtreme-vision/xv-cricket",
+    "width": 540,
+    "height": 540,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(8,40,88)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "et-list-1": {
+    "src": "/media/journalism/et-list-1",
+    "width": 540,
+    "height": 1095,
+    "widths": [
+      480,
+      540
+    ],
+    "color": "rgb(248,248,248)",
+    "source": "pdf-extract",
+    "temp": true
+  },
+  "et-list-2": {
+    "src": "/media/journalism/et-list-2",
+    "width": 495,
+    "height": 1002,
+    "widths": [
+      480,
+      495
+    ],
+    "color": "rgb(248,248,248)",
+    "source": "pdf-extract",
+    "temp": true
+  }
+}
