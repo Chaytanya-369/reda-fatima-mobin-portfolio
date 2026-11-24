@@ -79,6 +79,8 @@ input, textarea { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--terracotta); outline-offset: 4px; border-radius: 2px; }
 .section--light :focus-visible, .section--paper :focus-visible { outline-color: var(--terracotta-deep); }
 main:focus, section:focus { outline: none; }
+/* clip full-bleed decorations sized in vw (vw includes the scrollbar); clip does not break sticky/pinned sections */
+main { overflow-x: clip; }
 [hidden] { display: none !important; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
@@ -175,10 +177,10 @@ html.has-cursor .cursor.is-label { width: 92px; height: 92px; margin: -46px 0 0 
   opacity: 0; transition: opacity .6s; border-bottom: 1px solid var(--line-dark);
 }
 .nav.is-scrolled::before { opacity: 1; }
-.nav__mark { position: relative; display: flex; align-items: baseline; gap: 1.08rem; z-index: 2; }
-.nav__mono { font-family: var(--serif); font-size: 2.04rem; line-height: 1; letter-spacing: -0.02em; }
+.nav__mark { position: relative; display: flex; align-items: baseline; gap: 1.3rem; z-index: 2; }
+.nav__mono { font-family: var(--serif); font-size: 2.448rem; line-height: 1; letter-spacing: -0.02em; }
 .nav__mono em { color: var(--terracotta); }
-.nav__name { font-family: var(--mono); font-size: 0.9rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-dark); transition: opacity .4s; }
+.nav__name { font-family: var(--mono); font-size: 1.08rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-dark); transition: opacity .4s; }
 .nav.is-scrolled .nav__name { opacity: 0; }
 .nav__mark:focus-visible .nav__name { opacity: 1; }
 /* Narrow desktops: the larger lockup would crowd the six links, so show the monogram only. */
@@ -386,7 +388,8 @@ html.motion .menu:not([hidden]) li { animation: rise .9s var(--ease-out) both; a
 .feature--wide .feature__title { font-size: var(--fs-display); }
 /* full bleed */
 .feature--full { --pad: 0; max-width: none; }
-.feature--full .feature__media { grid-column: 1 / -1; grid-row: 1; aspect-ratio: 2.39 / 1; min-height: 70vh; }
+/* Height is the larger of 2.39:1 and 70vh; width always stays at 100% (aspect-ratio + min-height would widen it past the screen). */
+.feature--full .feature__media { grid-column: 1 / -1; grid-row: 1; width: 100%; height: max(70vh, calc(100vw / 2.39)); }
 .feature--full .feature__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,9,8,.85), rgba(10,9,8,.1) 55%); }
 .feature--full .feature__text { grid-column: 1 / -1; grid-row: 1; padding: var(--gutter); max-width: var(--max); width: 100%; margin: 0 auto; }
 .feature--full .feature__title { font-size: var(--fs-mega); }
@@ -408,7 +411,7 @@ html.motion .menu:not([hidden]) li { animation: rise .9s var(--ease-out) both; a
   .feature .feature__media, .feature .feature__text, .feature .feature__second { grid-column: 1 !important; grid-row: auto !important; margin-top: 0; transform: none; }
   .feature--poster .feature__second { width: 42%; margin-top: -30% !important; margin-left: auto; margin-right: 6%; }
   .feature--split .feature__second { display: none; }
-  .feature--full .feature__media { min-height: 0; aspect-ratio: 4 / 5; }
+  .feature--full .feature__media { height: auto; aspect-ratio: 4 / 5; }
   .feature--full .feature__media::after { display: none; }
   .feature--full .feature__text { padding-block: 0; }
   .feature--full .feature__title { font-size: var(--fs-display); }
